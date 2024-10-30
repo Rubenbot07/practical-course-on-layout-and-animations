@@ -27,7 +27,6 @@ function checkScreenSize() {
 
 window.addEventListener('load', checkScreenSize);
 window.addEventListener('resize', checkScreenSize);
-
 listItems.forEach((item) => {
     item.addEventListener('click', () => {
         modal.classList.add('active');
