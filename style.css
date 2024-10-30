@@ -9,6 +9,7 @@ body {
     overflow-x: hidden;
     font-weight: 300;
     height: 100%;
+    width: 100vw;
 }
 
 nav {
@@ -214,6 +215,7 @@ nav {
 
 
 .main-section {
+    overflow-x: hidden;
     visibility: hidden;
     animation: showUp 1s forwards ease-in-out 2.8s;
 }
